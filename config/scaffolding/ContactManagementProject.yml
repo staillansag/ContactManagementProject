@@ -12,6 +12,10 @@ services:
   packages:
   - name: ContactManagementProject
     version: "1.0"
+- serviceName: project.contactmanagement.integrations:createMessage
+  packages:
+  - name: ContactManagementProject
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
